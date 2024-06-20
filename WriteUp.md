@@ -17,6 +17,7 @@ Pendant l'exécution, nous avons constaté que dans les registres nous pouvons v
 Lorsque nous avons téléchargé le binaire, nous avons fait en sorte de commencer par une analyse dynamique avec PwnDBG.
 
 Pendant l'exécution, nous avons constaté que dans les registres nous pouvons voir le mot de passe stocké dans RSI qui a pour valeur : "mqlskdjfhtyurieo"
+
 ![](img/Pasted_image_20240620150327.png)
 
 # WriteUp - cettefoisclabonne
@@ -32,4 +33,5 @@ Pendant l'exécution, nous avons constaté que dans le fichier nous pouvons voir
 Lorsque nous avons téléchargé le binaire, nous avons fait en sorte de commencer par une analyse dynamique avec PwnDBG.
 
 Pendant l'exécution, nous avons constaté que dans les registres nous pouvons voir le mot de passe stocké dans RSI qui a pour valeur : "NSMVayneTopGrasp"
+
 ![](img/2024-06-20_19_50_29-Window.png)
