@@ -24,7 +24,7 @@ Pendant l'exécution, nous avons constaté que dans les registres nous pouvons v
 
 Lorsque nous avons téléchargé le binaire, nous avons effectué une analyse avec l'outil `strings` nous permettant de voir les chaînes de caractère en ascii dans le fichier.
 
-Pendant l'exécution, nous avons constaté que dans le fichier nous pouvons voir le mot de passe stocké qui a pour valeur : "tenflammespasnonpluscducleartext".
+Pendant l'exécution, nous avons constaté que dans le fichier nous pouvons voir le mot de passe stocké qui a pour valeur : "".
 
 ![](img/2024-06-20_19_47_29-Window.png)
 
@@ -35,3 +35,27 @@ Lorsque nous avons téléchargé le binaire, nous avons fait en sorte de commenc
 Pendant l'exécution, nous avons constaté que dans les registres nous pouvons voir le mot de passe stocké dans RSI qui a pour valeur : "NSMVayneTopGrasp"
 
 ![](img/2024-06-20_19_50_29-Window.png)
+
+# WriteUp - SecurePassCheck
+
+Lorsque nous avons téléchargé le binaire, nous avons effectué une analyse avec l'outil `strings` nous permettant de voir les chaînes de caractère en ascii dans le fichier.
+
+Pendant l'exécution, nous avons constaté que dans le fichier nous pouvons voir le mot de passe stocké qui a pour valeur : ">+55^Se0X2{5542/".
+
+![](img/2024-07-09_14_32_17.png)
+
+# WriteUp - BON..........
+
+Lorsque nous avons téléchargé le binaire, nous avons fait en sorte de commencer par une analyse dynamique avec PwnDBG.
+
+Pendant l'exécution, nous avons constaté que dans les registres nous pouvons voir le mot de passe stocké dans RSI qui a pour valeur : "bienchiantsamere"
+
+![](img/2024-07-09_14_46_57.png)
+
+# WriteUp - iloveasm
+
+Lorsque nous avons téléchargé le binaire, nous avons effectué une analyse avec l'outil `strings` nous permettant de voir les chaînes de caractère en ascii dans le fichier.
+
+Pendant l'exécution, nous avons constaté que dans le fichier nous pouvons voir le mot de passe stocké qui a pour valeur : "dontpwnisaid2".
+
+![](img/2024-07-09_15_03_33.png)
