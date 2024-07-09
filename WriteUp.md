@@ -59,3 +59,19 @@ Lorsque nous avons téléchargé le binaire, nous avons effectué une analyse av
 Pendant l'exécution, nous avons constaté que dans le fichier nous pouvons voir le mot de passe stocké qui a pour valeur : "dontpwnisaid2".
 
 ![](img/2024-07-09_15_03_33.png)
+
+# WriteUp - BON BON BON BON BON BON BON
+
+Lorsque nous avons téléchargé le binaire, nous avons fait en sorte de commencer par une analyse dynamique avec PwnDBG.
+
+Pendant l'exécution, nous avons constaté que dans les registres nous pouvons voir le mot de passe stocké en deux parties qui a pour valeur : "AbcDfEgHLhIjKmNp"
+
+![](img/2024-07-09_16_37_03.png)
+
+# WriteUp - No_attack_we_need_points_good
+
+Lorsque nous avons téléchargé le binaire, nous avons effectué une analyse avec l'outil `strings` nous permettant de voir les chaînes de caractère en ascii dans le fichie>
+
+Pendant l'exécution, nous avons constaté que dans le fichier nous pouvons voir le mot de passe qui est stocké en plusieurs parties a pour valeur : "ColpPass12343456".
+
+![](img/2024-07-09_16_43_26.png)
