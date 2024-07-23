@@ -75,3 +75,11 @@ Lorsque nous avons téléchargé le binaire, nous avons effectué une analyse av
 Pendant l'exécution, nous avons constaté que dans le fichier nous pouvons voir le mot de passe qui est stocké en plusieurs parties a pour valeur : "ColpPass12343456".
 
 ![](img/2024-07-09_16_43_26.png)
+
+# WriteUp - idon'tknow
+
+Lorsque nous avons téléchargé le binaire, nous avons effectué une analyse avec l'outil `strings` nous permettant de voir les chaînes de caractère en ascii dans le fichier.
+
+Pendant l'exécution, nous avons constaté que dans le fichier nous pouvons voir le mot de passe stocké qui a pour valeur : "inputinputinputs".
+
+![](img/2024-07-09_15_03_33.png)
